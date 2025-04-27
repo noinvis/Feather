@@ -1,55 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feather - Rooms like your dreams</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/output.css">
     <link rel="shortcut icon" href="./src/img/feather.png" type="image/x-icon">
 </head>
 <body>
     <header class="sticky top-0 z-10 bg-[#FBF8F5] header">
-        <nav class="container2 flex h-[70px] items-center max-[640px]:justify-between">
+        <nav class="container2 flex h-[70px] items-center max-[640px]:justify-between overflow-hidden">
             <div class="hidden max-[640px]:block">
                 <img src="./src/img/Vector.svg" alt="">
             </div>
-            <ul class="flex gap-[36px] max-[640px]:hidden">
-                <li class="hover:underline">
+            <ul class="flex gap-[36px] max-[640px]:hidden overflow-hidden">
+                <li class="hover:underline animation-top">
                     <a href="#Furniture">
                         <span class="text-[16px] font-[Roboto]">Furniture</span>
                     </a>
                 </li>
-                <li class="hover:underline">
+                <li class="hover:underline animation-top1">
                     <a href="#Feather">
                         <span class="text-[16px] font-[Roboto]">Why Feather</span>
                     </a>
                 </li>
-                <li class="hover:underline">
+                <li class="hover:underline animation-top2">
                     <a href="#Business">
                         <span class="text-[16px] font-[Roboto] max-[900px]:hidden">Feather of Business</span>
                     </a>
                 </li>
             </ul>
-            <div class="m-auto max-[640px]:hidden">
+            <div class="m-auto max-[640px]:hidden animation-bottom">
                 <img src="./src/img/Vector.svg" alt="">
             </div>
-            <ul class="flex gap-[36px]">
-                <li class="hover:underline">
+            <ul class="flex gap-[36px] overflow-hidden">
+                <li class="hover:underline animation-top3">
                     <a href="#Check">
                         <span class="text-[16px] font-[Roboto] max-[900px]:hidden">Check if We Deliver</span>
                     </a>
                 </li>
-                <li class="hover:underline">
+                <li class="hover:underline animation-top2">
                     <a href="#Search">
                         <span class="text-[16px] font-[Roboto] max-[640px]:hidden">Search</span>
                     </a>
                 </li>
-                <li class="hover:underline">
+                <li class="hover:underline animation-top1">
                     <a href="#Account">
                         <span class="text-[16px] font-[Roboto] max-[640px]:hidden">Account</span>
                     </a>
                 </li>
-                <li>
+                <li class="animation-top">
                     <a href="#Shop">
                         <img src="./src/img/shop.svg" alt="">
                     </a>
@@ -59,15 +60,15 @@
     </header>
     <main>
         <section class="bg-[#FBF8F5]">
-            <div class="container flex justify-center items-center gap-[20px] max-[980px]:flex-col-reverse max-[980px]:gap-0">
-                <div class="w-[46%] max-[980px]:w-full">
+            <div class="container flex justify-center items-center gap-[20px] max-[980px]:flex-col-reverse max-[980px]:gap-0 overflow-hidden">
+                <div class="w-[46%] max-[980px]:w-full animation-left">
                     <h2 class="text-[64px] font-[Roboto] leading-[76px] max-[980px]:text-center max-[715px]:text-[44px] max-[715px]:leading-[40px] max-[500px]:text-[30px]">Curated and Convenient</h2>
                     <p class="text-[18px] font-[Roboto] mt-[18px] max-[980px]:text-center max-[500px]:text-[16px]">We've built our offerings on the principle that everyone deserves high-quality design without the high cost. We offer elevated rental inventory, to transform your space. Reuse and recycle - we make the decision as light as a “feather”</p>
                     <div class="flex max-[980px]:justify-center">
-                        <button class="bg-[#E9672B] text-white text-[18px] font-[Roboto] rounded-[30px] py-[16px] px-[30px] mt-[40px] max-[500px]:mt-[20px] max-[500px]:text-[16px]">Get Started</button>
+                        <button class="bg-[#E9672B] button1 text-white text-[18px] font-[Roboto] rounded-[30px] py-[16px] px-[30px] mt-[40px] max-[500px]:mt-[20px] max-[500px]:text-[16px]">Get Started</button>
                     </div>
                 </div>
-                <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center">
+                <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center animation-right">
                     <img src="./src/img/IMAGE.svg" alt="">
                 </div>
             </div>
@@ -99,53 +100,136 @@
             <p class="text-[36px] font-[Roboto] text-center max-[550px]:text-[22px]">“Keeping Furniture in Homes and out of Landfills."</p>
             <p class="text-[24px] font-[Roboto] text-center max-[550px]:text-[16px]">This isn’t just another rental company - We’re elevating the future of furniture by replacing the commitment of ownership with a culture of sharing in a way that’s curated, convenient, and sustainable.</p>
         </section>
-        <section class="container pt-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[980px]:flex-col-reverse">
-            <div class="w-[40%] max-[980px]:w-full">
-                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]">Enjoy a fully furnished space in less than week</h2>
-                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]">Feather furniture is available to be delivered and assembled in New York City, Los Angeles and San Francisco.</p>
-                <a href="#Explore" class="flex max-[980px]:justify-center">
+        <section class="container pt-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[980px]:flex-col-reverse overflow-hidden">
+            <div class="w-[40%] max-[980px]:w-full overflow-hidden">
+                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]" data-aos="fade-right" data-aos-duration="1000">Enjoy a fully furnished space in less than week</h2>
+                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]" data-aos="fade-right" data-aos-duration="1200">Feather furniture is available to be delivered and assembled in New York City, Los Angeles and San Francisco.</p>
+                <a href="#Explore" class="flex max-[980px]:justify-center" data-aos="fade-right" data-aos-duration="1400">
                     <span class="text-[18px] font-[Roboto] text-[#E9672B]">Explore Furniture</span>
                 </a>
             </div>
-            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center">
+            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center" data-aos="fade-left" data-aos-duration="1000">
                 <img src="./src/img/IMAGE (5).svg" alt="">
             </div>
         </section>
-        <section class="container pt-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[980px]:flex-col">
-            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center">
+        <section class="container pt-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[980px]:flex-col overflow-hidden">
+            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center" data-aos="fade-right" data-aos-duration="1000">
                 <img src="./src/img/IMAGE (6).svg" alt="">
             </div>
-            <div class="w-[40%] max-[980px]:w-full">
-                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]">Garage Sale - 40% & Up</h2>
-                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]">Our Garage Sale is open! Savings start at 40% on favorite retired pieces. Find dressers, sofas, decor, and more to make the year one to remember.</p>
-                <p class="text-[18px] font-[Roboto] mt-[20px] max-[980px]:text-center max-[600px]:text-[16px] mb-[20px]">Terms and conditions apply. View here.</p>
-                <a href="#Explore" class="flex max-[980px]:justify-center">
+            <div class="w-[40%] max-[980px]:w-full overflow-hidden">
+                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]" data-aos="fade-left" data-aos-duration="1200">Garage Sale - 40% & Up</h2>
+                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]" data-aos="fade-left" data-aos-duration="1400">Our Garage Sale is open! Savings start at 40% on favorite retired pieces. Find dressers, sofas, decor, and more to make the year one to remember.</p>
+                <p class="text-[18px] font-[Roboto] mt-[20px] max-[980px]:text-center max-[600px]:text-[16px] mb-[20px]" data-aos="fade-left" data-aos-duration="1600">Terms and conditions apply. View here.</p>
+                <a href="#Explore" class="flex max-[980px]:justify-center" data-aos="fade-left" data-aos-duration="1800">
                     <span class="text-[18px] font-[Roboto] text-[#E9672B]">Shop Now</span>
                 </a>
             </div>
         </section>
-        <section class="container pt-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[980px]:flex-col-reverse">
-            <div class="w-[40%] max-[980px]:w-full">
-                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]">Furniture for business, made simple.</h2>
-                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]">Say goodbye to cost, complexity, and commitment of furniture. Feather makes it easy with affordable rental plans, white glove delivery and best-in-class account service.</p>
-                <a href="#Explore" class="flex max-[980px]:justify-center">
+        <section class="container pt-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[980px]:flex-col-reverse overflow-hidden" id="Business">
+            <div class="w-[40%] max-[980px]:w-full overflow-hidden">
+                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]" data-aos="fade-right" data-aos-duration="1000">Furniture for business, made simple.</h2>
+                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]" data-aos="fade-right" data-aos-duration="1200">Say goodbye to cost, complexity, and commitment of furniture. Feather makes it easy with affordable rental plans, white glove delivery and best-in-class account service.</p>
+                <a href="#Explore" class="flex max-[980px]:justify-center" data-aos="fade-right" data-aos-duration="1400">
                     <span class="text-[18px] font-[Roboto] text-[#E9672B]">Visit Feather For Business</span>
                 </a>
             </div>
-            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center">
+            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center" data-aos="fade-left" data-aos-duration="1000">
                 <img src="./src/img/IMAGE (7).svg" alt="">
             </div>
         </section>
-        <section class="container pt-[100px] pb-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[550px]:pb-[70px] max-[980px]:flex-col">
-            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center">
+        <section class="container pt-[100px] pb-[100px] flex justify-between items-center max-[550px]:pt-[70px] max-[550px]:pb-[70px] max-[980px]:flex-col overflow-hidden">
+            <div class="w-[50%] max-[980px]:w-full max-[980px]:flex max-[980px]:justify-center" data-aos="fade-right" data-aos-duration="1000">
                 <img src="./src/img/IMAGE (8).svg" alt="">
             </div>
-            <div class="w-[40%] max-[980px]:w-full">
-                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]">Never assemble furniture again.</h2>
-                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]">We move a lot. There are countless floor plans and roommates (oh, and your evolving tastes) between here and there. With Feather, furnish your space without breaking a sweat or reaching for a screwdriver.</p>
-                <a href="#Explore" class="flex max-[980px]:justify-center">
+            <div class="w-[40%] max-[980px]:w-full overflow-hidden">
+                <h2 class="text-[38px] font-[Roboto] max-[980px]:text-center max-[980px]:mt-[20px] max-[600px]:text-[24px] max-[450px]:text-[20px]" data-aos="fade-left" data-aos-duration="1000">Never assemble furniture again.</h2>
+                <p class="text-[18px] font-[Roboto] mt-[20px] mb-[33px] max-[980px]:text-center max-[980px]:my-[10px] max-[600px]:text-[16px]" data-aos="fade-left" data-aos-duration="1200">We move a lot. There are countless floor plans and roommates (oh, and your evolving tastes) between here and there. With Feather, furnish your space without breaking a sweat or reaching for a screwdriver.</p>
+                <a href="#Explore" class="flex max-[980px]:justify-center" data-aos="fade-left" data-aos-duration="1400">
                     <span class="text-[18px] font-[Roboto] text-[#E9672B]">How Feather Works</span>
                 </a>
+            </div>
+        </section>
+        <section class="bg-[#FBF8F5] py-[80px]">
+            <div class="container">
+                <p class="text-center text-[36px] font-[Roboto]">Shop our Bestsellers</p>
+                <div class="grid grid-cols-4 gap-[10px] mt-[50px] max-[800px]:grid-cols-2 max-[450px]:grid-cols-1 overflow-hidden">
+                    <div class="p-[33px] bg-white h-[400px]" data-aos="flip-left" data-aos-duration="2000">
+                        <img src="./src/img/IMAGE (9).svg" alt="" class="mx-auto">
+                        <p class="text-center text-[18px] font-[Roboto] mt-[30px] mb-[10px]">Cooper Dining Table</p>
+                        <p class="text-center text-[18px] font-[Roboto]">rent for <span class="text-[#E9672B]">$15</span>/mo or buy for <span class="text-[#4f4f4f]">$359</span> $314</p>
+                    </div>
+                    <div class="p-[33px] bg-white h-[400px]" data-aos="flip-left" data-aos-duration="2500">
+                        <img src="./src/img/IMAGE (10).svg" alt="" class="mx-auto">
+                        <p class="text-center text-[18px] font-[Roboto] mt-[30px] mb-[10px]">Croft Media Console</p>
+                        <p class="text-center text-[18px] font-[Roboto]">rent for <span class="text-[#E9672B]">$35</span>/mo or buy for <span class="text-[#4f4f4f]">$839</span> $739</p>
+                    </div>
+                    <div class="p-[33px] bg-white h-[400px]" data-aos="flip-right" data-aos-duration="2500">
+                        <img src="./src/img/IMAGE (11).svg" alt="" class="mx-auto">
+                        <p class="text-center text-[18px] font-[Roboto] mt-[30px] mb-[10px]">Essex Dining Chair</p>
+                        <p class="text-center text-[18px] font-[Roboto]">rent for <span class="text-[#E9672B]">$18</span>/mo or buy for <span class="text-[#4f4f4f]">$429</span> $379</p>
+                    </div>
+                    <div class="p-[33px] bg-white h-[400px]" data-aos="flip-right" data-aos-duration="2000">
+                        <img src="./src/img/IMAGE (12).svg" alt="" class="mx-auto">
+                        <p class="text-center text-[18px] font-[Roboto] mt-[30px] mb-[10px]">Ludlow Sofa</p>
+                        <p class="text-center text-[18px] font-[Roboto]">rent for <span class="text-[#E9672B]">$52</span>/mo or buy for <span class="text-[#4f4f4f]">$1249</span> $1099</p>
+                    </div>
+                </div>
+                <a href="#All">
+                    <p class="text-center text-[#E9672B] font-[Roboto] text-[18px] mt-[55px]">Shop All Furniture</p>
+                </a>
+            </div>
+        </section>
+        <section class="bg-[#E9672B]">
+            <div class="container2 flex max-[990px]:flex-col-reverse">
+                <div class="w-[70%] max-[990px]:w-full">
+                    <img src="./src/img/IMAGE (13).svg" alt="" class="mx-auto">
+                </div>
+                <div class="w-[30%] bg-[#E9672B] flex flex-col justify-center items-center gap-[32px] max-[990px]:w-full max-[990px]:py-[50px]">
+                    <img src="./src/img/Vector (2).svg" alt="">
+                    <p class="text-[36px] text-white font-[Roboto] text-center">Floyd Furniture Meets Feather Flexibility</p>
+                    <button class="text-[#E9672B] text-[18px] font-[Roboto] py-[16px] px-[40px] bg-white rounded-[88px] hover:bg-[#E9672B] hover:text-white duration-300 borderw">Explore Floyd Furniture</button>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#FBF8F5] py-[120px]">
+            <div class="container">
+                <p class="text-center text-[48px] font-[Roboto] max-[600px]:text-[30px]">The Reviews are In</p>
+                <div class="grid grid-cols-3 gap-[32px] mt-[55px] max-[900px]:grid-cols-2 max-[650px]:grid-cols-1">
+                    <div class="rounded-[4px] border1 flex flex-col gap-[30px] p-[35px] shadow5 overflow-hidden">
+                        <img src="./src/img/Group 1.svg" alt="" class="w-[120px]" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="text-[18px] font-[Roboto]" data-aos="fade-up" data-aos-duration="1500">Honestly BEST EXPERIENCE moving ever.</p>
+                        <p class="text-[18px] font-[Roboto]" data-aos="fade-up" data-aos-duration="2000">- Julie, San Francisco, CA</p>
+                    </div>
+                    <div class="rounded-[4px] border2 flex flex-col gap-[30px] p-[35px] shadow6 overflow-hidden">
+                        <img src="./src/img/Group 2.svg" alt="" class="w-[120px]" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="text-[18px] font-[Roboto]" data-aos="fade-up" data-aos-duration="1500">Extremely easy! Browsed for furniture and it was in my new apartment within a week.</p>
+                        <p class="text-[18px] font-[Roboto]" data-aos="fade-up" data-aos-duration="2000">- Anthony, Los Angeles, CA</p>
+                    </div>
+                    <div class="rounded-[4px] border3 flex flex-col gap-[30px] p-[35px] shadow7 overflow-hidden">
+                        <img src="./src/img/Group 3.svg" alt="" class="w-[120px]" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="text-[18px] font-[Roboto]" data-aos="fade-up" data-aos-duration="1500">THIS JUST MAKES SENSE. Truly obsessed with Feather.</p>
+                        <p class="text-[18px] font-[Roboto]" data-aos="fade-up" data-aos-duration="2000">- Wesley, New York City, NY</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#F6CFCA] py-[100px] max-[500px]:py-[70px]">
+            <div class="container">
+                <p class="text-[64px] text-center font-[Roboto] max-[750px]:text-[45px] max-[500px]:text-[24px]">Ease the pain of moving from apartment to apartment.</p>
+                <div class="flex justify-around mt-[100px] max-[750px]:flex-wrap gap-[30px] max-[500px]:mt-[40px]">
+                    <img src="./src/img/Frame.svg" alt="">
+                    <img src="./src/img/Frame (1).svg" alt="">
+                    <img src="./src/img/Frame (2).svg" alt="">
+                    <img src="./src/img/Frame (3).svg" alt="">
+                    <img src="./src/img/Frame (4).svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="bg-[#FBF8F5] py-[100px] max-[500px]:py-[70px]">
+            <div class="flex justify-center flex-col gap-[40px]">
+                <img src="./src/img/Frame (5).svg" alt="" class="w-[264px] mx-auto">
+                <p class="text-center text-[24px] font-[Roboto]">Feather is the stress-free <br> way to furnish your home</p>
+                <button class="button1 text-white font-[Roboto] bg-[#E9672B] rounded-[88px] py-[16px] px-[40px] w-[200px] mx-auto">Shop Furniture</button>
             </div>
         </section>
     </main>
@@ -154,5 +238,9 @@
 
 
     <script src="./src/js/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

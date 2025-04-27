@@ -25,10 +25,13 @@
     margin-right: auto;
 }
 button{
+    cursor: pointer;
+}
+.button1{
     transition: .3s ease;
     border: 1px solid #E9672B;
 }
-button:hover{
+.button1:hover{
     cursor: pointer;
     color: #E9672B;
     background: #fff;
@@ -59,4 +62,85 @@ button:hover{
 }
 .header.shrink{
     background: #fff;
+}
+.borderw{
+    border: 1px solid #fff;
+}
+.shadow5{
+    box-shadow: 7px -7px 0 #cbc6f4;
+}
+.shadow6{
+    box-shadow: 7px -7px 0 #e7cb43;
+}
+.shadow7{
+    box-shadow: 7px -7px 0 #a2d4c5;
+}
+
+.animation-top{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-top1{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-top2{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-top3{
+    transform: translateY(-60px);
+    opacity: 0;
+    animation: FromTop .5s ease-out .2s forwards;
+}
+.animation-right{
+    transform: translateX(60px);
+    opacity: 0;
+    animation: FromRight .5s ease-out .3s forwards;
+}
+.animation-left{
+    transform: translateX(-60px);
+    opacity: 0;
+    animation: FromLeft .5s ease-out .3s forwards;
+}
+ul .animation-top1{
+    animation-delay: .4s;
+}
+ul .animation-top2{
+    animation-delay: .6s;
+}
+ul .animation-top3{
+    animation-delay: .8s;
+}
+.animation-bottom{
+    transform: translateY(60px);
+    opacity: 0;
+    animation: FromBottom .5s ease-out .3s forwards;
+}
+@keyframes FromLeft {
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes FromRight {
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes FromTop {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes FromBottom {
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
