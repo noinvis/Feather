@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+*{
+    user-select: none;
+}
+.container2{
+    max-width: 1300px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+button{
+    transition: .3s ease;
+    border: 1px solid #E9672B;
+}
+button:hover{
+    cursor: pointer;
+    color: #E9672B;
+    background: #fff;
+}
+.shadow1{
+    box-shadow: 7px 7px 0 #cbc6f4;
+}
+.border1{
+    border: 2px solid #E9672B;
+}
+.border2{
+    border: 2px solid #225DCA;
+}
+.shadow2{
+    box-shadow: 7px 7px 0 #e7cb43;
+}
+.border3{
+    border: 2px solid #242947;
+}
+.shadow3{
+    box-shadow: 7px 7px 0 #a2d4c5;
+}
+.border4{
+    border: 2px solid #DE4333;
+}
+.shadow4{
+    box-shadow: 7px 7px 0 #af4920;
+}
+.header.shrink{
+    background: #fff;
+}
